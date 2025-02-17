@@ -1,0 +1,125 @@
+body {
+    background-color: #fffffe;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bar {
+    text-align: center;
+    color: #33272a;
+    background-color: #faeee7;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 10px;
+    clear: both;
+}
+#main-nav{
+    background-color: #ffc6c7;
+    text-align: center;
+    margin: 10px;
+}
+#main-nav li{
+    display: inline-block;
+    position: relative;
+}
+#main-nav li:hover{
+    background-color: #ff8ba7;
+}
+#main-nav ul ul{
+    display:none;
+    position:absolute;
+}
+  
+#main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url(Hattori_Hanzo_Italic.woff);
+}
+.main-container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 500px;
+    font-family: bodyFont;
+    color:#33272a
+}
+.main-area {
+    width: 60%;
+    float: left;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+
+  
+  #contact {
+    text-align: left;
+    background-color: #594a4e;
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+    color:#faeee7;
+    padding: 5px
+  }
+  #contact ul ul{
+    display:none;
+    position:absolute;
+}
+  
+#contact ul li {
+    margin-left: 30px;
+}
+#contact p{
+    margin-left: 30px;
+}
+#contact h3{
+    text-align: left;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+#contact:hover{
+    background-color: #33272a;
+}
+
+h1 {
+    margin-top:100px;
+    text-align: center; 
+    font-size: 56px;
+}
+h2{
+    text-align: center;
+    color: #c74b72;
+}
+h3{
+    text-align: center;
+}
+a:link, a:visited {
+    color: #33272a;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+  }
+
+input[type=submit] {
+    background-color: #ffc6c7;
+    color: #33272a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+input[type=submit]:hover {
+    background-color: #ff8ba7;
+}
+#name:focus{
+    width: 300px;
+}
+form{
+    text-align: center;
+}
